@@ -21,3 +21,72 @@ body{
 	position:relative;
 	top:600px;
 }
+
+/*Casita*/
+#casita{
+	top:330px;
+	right:200px;
+	position:absolute;
+}
+
+.techo{
+	border-bottom: 100px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height:0;
+	width: 200px;
+	position:relative;
+}
+.pared{
+	position:relative;
+	background-color: #401F08;
+	width: 250px;
+	height:190px;
+	left:25px;
+}
+.puerta{
+	width:80px;
+	height:130px;
+	background-color: #666666;
+	bottom:0;
+	position:absolute;
+	left:55px;
+}
+.ventana{
+	width: 60px;
+	height: 60px;
+	background-color: pink;
+	position:absolute;
+	bottom:70px;
+	right: 22px;
+}
+.chimenea{
+	background-color: #FF5C5C;
+	width:40px;
+	height:60px;
+	top:-30px;
+	position:relative;
+	left:140px;
+}
+.humo{
+	background-color:#A8A8A8;
+	width:30px;
+	height: 30px;
+	border-radius: 100px;
+	position:relative;
+}
+
+.humo1{
+	top:-50px;
+	right: -10px;
+}
+
+.humo2{
+	top:-110px;
+	right: -50px;
+}
+
+.humo3{
+	top:-160px;
+	right:-105px;
+}
